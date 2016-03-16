@@ -2,7 +2,7 @@
 . ~/.dotfiles/fresh/fresh
 fresh --begin
 
-fresh 'functions/*.fish' --file='~/.dotfiles/fish/functions/fishmarks.fish'
-fresh 'completions/*.fish' --file='~/.dotfiles/fish/functions/fishmarks.fish'
+fresh 'functions/*.fish' --file='~/.dotfiles/fish/custom/fishmarks.fish'
+fresh 'completions/*.fish' --file='~/.dotfiles/fish/custom/fishmarks.fish'
 
 fresh --end
