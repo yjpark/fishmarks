@@ -1,4 +1,4 @@
-function p -d "fishmarks list location of bookmark"
+function bookmark-print -d "fishmarks list location of bookmark"
          fishmark_help $argv
          fishmark_source
          
@@ -8,3 +8,4 @@ function p -d "fishmarks list location of bookmark"
             cat $SDIRS | grep "^DIR_$argv" | cut -f2 -d' '
          end
 end
+

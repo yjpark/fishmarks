@@ -21,3 +21,4 @@ function fishmark_help -d "prints fishmarks help if flagged"
                 kill -SIGINT %self
          end
 end
+

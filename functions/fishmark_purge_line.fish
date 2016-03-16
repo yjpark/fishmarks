@@ -14,3 +14,4 @@ function fishmark_purge_line -d "remove a line from bookmark file"
 #            trap - EXIT
          end
 end
+

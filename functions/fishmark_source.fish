@@ -12,3 +12,4 @@ function fishmark_source -d "set up bookmark file"
             end
          end
 end
+

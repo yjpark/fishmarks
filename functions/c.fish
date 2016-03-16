@@ -1,9 +1,8 @@
-function c -d "fishmarks change to bookmark directory"
+function gg -d "fishmarks change to bookmark directory"
          fishmark_help $argv[1]
          fishmark_source
          if test -z $argv
-            cd $HOME
-            echo $HOME
+            bookmark-list
          else
             set -l target (eval echo \$(echo DIR_(echo $argv[1])))
             set -l warn (set_color $fish_color_error)
@@ -17,3 +16,4 @@ function c -d "fishmarks change to bookmark directory"
             end
          end
 end
+

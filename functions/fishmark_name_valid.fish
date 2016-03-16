@@ -4,3 +4,4 @@ function fishmark_name_valid -d "determine if argument can be a valid bookmark n
             kill -SIGINT %self
          end
 end
+
